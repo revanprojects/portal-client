@@ -8,6 +8,6 @@ const CONFIG_APP = {
     namaVendor: "Revan Projects",
 
     // 2. Google Drive API Key (Penting agar galeri bisa memuat foto)
-    googleApiKey: "AIzaSyAZczbLeVTXl-QKqLDJFWQLCd-lW9jqqxo",
-    whatsappAdmin: "62821000000000" // <-- TAMBAHKAN BARIS INI (Ganti dengan nomor WA admin)
+    googleApiKey: "AIzaSyAwAOkmxPZ3uK-ZkOlKJrKBAeKUIEfH2u4",
+    whatsappAdmin: "6282268054300" // <-- TAMBAHKAN BARIS INI (Ganti dengan nomor WA admin)
 };
