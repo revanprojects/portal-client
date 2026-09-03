@@ -5,9 +5,9 @@
 
 const CONFIG_APP = {
     // 1. Nama Studio Foto Anda (Akan tampil di header dan portal klien)
-    namaVendor: "Revan Projects",
+    namaVendor: "Portal Client",
 
     // 2. Google Drive API Key (Penting agar galeri bisa memuat foto)
-    googleApiKey: "AIzaSyAwAOkmxPZ3uK-ZkOlKJrKBAeKUIEfH2u4",
-    whatsappAdmin: "6282268054300" // <-- TAMBAHKAN BARIS INI (Ganti dengan nomor WA admin)
+    googleApiKey: "AIzaSyAZczbLeVTXl-QKqLDJFWQLCd-lW9jqqxo",
+    whatsappAdmin: "62821000000000" // <-- TAMBAHKAN BARIS INI (Ganti dengan nomor WA admin)
 };
