@@ -3,9 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="pageTitle">Revan Projects</title>
-    <meta name="description"
-        content="Fotografi & Videografi">
+    <title id="pageTitle">Client Portal</title>
     
     <script>
         tailwind = {
@@ -83,8 +81,8 @@
                     <i class="fa-solid fa-camera-retro"></i>
                 </div>
                 <div>
-                    <h1 class="font-bold text-lg leading-tight tracking-tight text-slate-800 dark:text-white" id="headerVendorName">Revan Projects</h1>
-                    <p class="text-xs text-slate-500 dark:text-slate-400 font-medium uppercase tracking-wider" data-i18n="subtitle">Fotografi & Videografi</p>
+                    <h1 class="font-bold text-lg leading-tight tracking-tight text-slate-800 dark:text-white" id="headerVendorName">Client Portal</h1>
+                    <p class="text-xs text-slate-500 dark:text-slate-400 font-medium uppercase tracking-wider" data-i18n="subtitle">Alat Seleksi Aman</p>
                 </div>
             </div>
             
@@ -334,9 +332,9 @@
 
         const TRANSLATIONS = {
             id: {
-                subtitle: "Fotografi & videografi",
+                subtitle: "Alat Seleksi Aman",
                 welcomeTitle: "Hallo",
-                welcomeDesc: "Selamat datang di layanan seleksi foto dari <span class='font-bold text-white'>{vendor}</span>.",
+                welcomeDesc: "Selamat datang di portal seleksi foto dari <span class='font-bold text-white'>{vendor}</span>.",
                 quotaTitle: "Kuota Paket",
                 quotaMax: "Foto Maksimal",
                 manualTitle: "Akses Manual Galeri",
@@ -378,7 +376,7 @@
             en: {
                 subtitle: "Secure Selection Tool",
                 welcomeTitle: "Hello",
-                welcomeDesc: "Welcome to the photo selection service from <span class='font-bold text-white'>{vendor}</span>.",
+                welcomeDesc: "Welcome to the photo selection portal from <span class='font-bold text-white'>{vendor}</span>.",
                 quotaTitle: "Package Quota",
                 quotaMax: "Max Photos",
                 manualTitle: "Manual Gallery Access",
@@ -1023,7 +1021,7 @@
                 textToCopy += `${index + 1}. ${p.name}\n`;
                 if (note) textToCopy += `   _Catatan: ${note}_\n`;
             });
-            textToCopy += `\n Dikirim dari ${vendor}`;
+            textToCopy += `\n_Dikirim dari ${vendor} Portal_`;
 
             if (waNumber) {
                 const encodedText = encodeURIComponent(textToCopy);
